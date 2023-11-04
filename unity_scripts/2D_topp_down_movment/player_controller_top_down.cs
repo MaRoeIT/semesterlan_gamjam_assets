@@ -6,9 +6,9 @@ public class player_controller_top_down : MonoBehaviour
 {
     // Variabel for å sette hastigheten til karakteren
     public float character_speed = 5f;
-    // Variabel som holder på elementet sin rigidbody, brukes for å bevege karakteren
+    // Variabel som holder på elementet sin rigidbody, brukes for å bevege karakteren. Husk å drag and dropp rigidbody fra karakteren inn på denne i inspektoren på unity.
     public Rigidbody2D rigid_body;
-    // Variable for å holde på animatoren til elementet
+    // Variable for å holde på animatoren til elementet. Husk å drag and dropp Animator fra karakteren inn på denne i inspektoren på unity.
     public Animator animator;
     // Variabel for å holde på x og y aksene
     Vector2 movment;
